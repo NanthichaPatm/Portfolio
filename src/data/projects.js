@@ -14,6 +14,7 @@ const projects = [
     techs: ["HTML", "CSS", "JavaScript", "Vue.js", "Bootstrap5"],
 	projectDetail:"The Apartment Management System is a web-based platform for managing apartment communities. The system was built using Vue3, HTML, CSS, and JavaScript, and communicates with a REST API to retrieve and store data. The application was designed using Bootstrap for responsive design.",
 	git:"https://github.com/NanthichaPatm/EcommerceWebsite-Vue3",
+	demo:"https://e-commerce-vue3.netlify.app/",
   },
   {
     id: 2,
@@ -27,6 +28,7 @@ const projects = [
 	techs: ["HTML", "CSS", "JavaScript", "Vue.js", "Bootstrap5","Rest APIs"],
 	projectDetail:"Designed and developed a dynamic and user-friendly e-commerce website using Vue.js 3 as the front-end framework, HTML, CSS, and JavaScript for UI design, and Bootstrap 5 for responsive layout and styling. The website features a range of functionalities, including product catalog and user-friendly interface.",
 	git:"https://github.com/NanthichaPatm/Apartment-vue3",
+	demo: undefined,
 },
   {
     id: 3,
@@ -40,6 +42,7 @@ const projects = [
 	techs: ["HTML", "CSS", "JavaScript", "Vue.js(Composition Api"],
 	projectDetail:"Developed a custom point-of-sale system for restaurants using Vue.js 3, HTML, CSS, JavaScript, and the Composition API for state management and component composition. The system includes functionalities such as menu display and order cart management.",
 	git:"https://github.com/NanthichaPatm/Food-POS-Vue3",
+	demo:'https://food-pos-vue3.netlify.app/manage/home',
 },
   {
     id: 4,
@@ -53,6 +56,7 @@ const projects = [
 	techs: ["HTML", "CSS", "JavaScript", "Vue.js(Composition API)"],
 	projectDetail:"The app retrieves weather data from a weather API and uses Vue.js for the front-end development to display the information in a user-friendly interface. The app can also allow users to search for the weather of a specific location. Vue.js is a progressive JavaScript framework for building user interfaces and it offers a reactive and composable approach to building the UI of the weather app.",
 	git:"https://github.com/NanthichaPatm/WeatherApp-Vue3",
+	demo:"https://weather-appvue3.netlify.app/",
 },
   {
     id: 5,
@@ -66,6 +70,7 @@ const projects = [
 	techs: ["HTML", "CSS", "JavaScript", "Vue.js(Composition API)"],
 	projectDetail:"Developed a web-based quiz application using Vue.js 3, HTML, CSS, JavaScript, and the Composition API for state management and component composition. The application includes functionalities such as taking quizzes with real-time updates and score tracking.",
 	git:"https://github.com/NanthichaPatm/Quiz-Vue3",
+	demo:"https://quizes-vue3.netlify.app/",
 },
   {
     id: 6,
@@ -79,6 +84,7 @@ const projects = [
 	techs: ["HTML", "CSS", "JavaScript", "Vue.js(Composition API)", "Rest APIs"],
 	projectDetail:"Developed a web-based animation tracker using Vue.js 3, HTML, CSS, JavaScript, and the Composition API for state management and component composition. The tracker includes functionalities such as adding and managing animations, and tracking progress.",
 	git:"https://github.com/NanthichaPatm/AnimeTracker-Vue3",
+	demo:"https://anime-tracker-vue3.netlify.app/",
 },
   {
     id: 7,
@@ -92,6 +98,7 @@ const projects = [
 	techs: ["HTML", "CSS", "JavaScript", "Vue.js(Composition API)"],
 	projectDetail:"A note-taking app built using Vue.js is a web application that allows users to create notes. The app uses Vue.js for the front-end development, providing a reactive and composable approach to building the user interface. The app may also provide features such as categorizing notes, setting reminders, and searching for specific notes. The notes are stored either locally in the browser, depending on the implementation.",
 	git:"https://github.com/NanthichaPatm/Note-Vue3",
+	demo:"https://note-app-vue3.netlify.app/",
 },
   {
     id: 8,
@@ -105,6 +112,7 @@ const projects = [
 	techs: ["HTML", "CSS", "JavaScript", "Vue.js(Composition API)"],
 	projectDetail:"A Tic Tac Toe game built using Vue.js is a web-based game that allows two players to play the classic Tic Tac Toe game on a 3x3 grid. Vue.js is used for the front-end development, providing a reactive and composable approach to building the user interface of the game. The game logic is implemented using JavaScript and Vue.js allows for easy manipulation of the UI elements such as the game board and the game status messages.",
 	git:"https://github.com/NanthichaPatm/TicTacToe-Vue3",
+	demo:"https://tictactoc-app-vue3.netlify.app/",
 },
 ];
 

@@ -3,9 +3,17 @@ import feather from "feather-icons";
 
 export default {
   props: ["projectInfo"],
+  data() {
+    return {
+      tech:{},
+    };
+  },
 
   mounted() {
     feather.replace();
+    console.log(this.projectInfo.technologies)
+    this.tech = this.projectInfo.technologies;
+    console.log(this.tech)
   },
   updated() {
     feather.replace();
@@ -72,7 +80,7 @@ export default {
       </p>
       <div class="flex justify-center sm:block">
         <a
-          href="projectInfo.technologies.git"
+          :href="projectInfo.technologies.git"
           class="
             flex
             justify-center
@@ -106,6 +114,42 @@ export default {
             >Github</span
           ></a
         >
+        <a v-if="tech.demo != undefined"
+          :href="projectInfo.technologies.demo"
+          class="
+            flex
+            justify-center
+            items-center
+            w-36
+            sm:w-48
+            mt-12
+            mb-6
+            sm:mb-0
+            text-lg
+            border border-gray-200
+            dark:border-ternary-dark
+            py-2.5
+            sm:py-3
+            shadow-lg
+            rounded-lg
+            bg-gray-100
+            focus:ring-1 focus:ring-gray-800
+            hover:bg-gray-900
+            text-gray-500
+            hover:text-white
+            duration-500
+          "
+          aria-label="goto demo"
+        >
+        <i
+            data-feather="eye"
+            class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100"
+          ></i>
+          <span class="text-sm sm:text-lg font-general-medium duration-100"
+            >Demo</span
+          ></a
+        >
+        
       </div>
     </div>
   </div>

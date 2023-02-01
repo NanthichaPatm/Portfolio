@@ -48,7 +48,8 @@ export default {
 					{
 						title: 'Tools & Technologies',
 						techs: [''],
-						git:''
+						git:'',
+						demo:'',
 					},
 				projectDetailsHeading: 'Description:',
 				projectDetail:'Losfljvnslojvnsbfsbsdfdfsfnvlsdv', //projects.projectDetail//
@@ -73,6 +74,7 @@ export default {
 		this.projectImages[2].img = this.project.img3; //projects.img//
 		this.projectInfo.objectivesDetails = this.project.objectivesDetails;
 		this.projectInfo.technologies.techs = this.project.techs;
+		this.projectInfo.technologies.demo = this.project.demo;
 		this.projectInfo.technologies.git = this.project.git;
 		this.projectInfo.projectDetail = this.project.projectDetail; //projects.projectDetail//
 	},
